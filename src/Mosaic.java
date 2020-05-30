@@ -71,7 +71,7 @@ public class Mosaic {
 	}
 	
 	public void saveMosaic() throws IOException {
-		String filename = "C:\\Users\\Thomas\\OneDrive - VCCS Student Advantage\\CSC 201\\nnnn\\src\\data\\" + Long.toString(System.currentTimeMillis()) + "_map.bin";
+		String filename = "/Users/thomas/Documents/Projects/Dialo/src/data/" + Long.toString(System.currentTimeMillis()) + "_map.bin";
 		FileWriter file = new FileWriter(filename);
 		BufferedWriter writer= new BufferedWriter(file);
 		for(int i = 0; i < this.xSize; i++) {
@@ -87,7 +87,7 @@ public class Mosaic {
 	}
 	
 	public void saveTestMosaic() throws IOException {
-		String filename = "C:\\Users\\Thomas\\OneDrive - VCCS Student Advantage\\CSC 201\\nnnn\\src\\data\\test_map.bin";
+		String filename = "/Users/thomas/Documents/Projects/Dialo/src/data/test_map.bin";
 		FileWriter file = new FileWriter(filename);
 		BufferedWriter writer= new BufferedWriter(file);
 		for(int i = 0; i < this.xSize; i++) {
@@ -104,7 +104,7 @@ public class Mosaic {
 	
 	public void loadTestMap() throws IOException {
 		
-		String filename = "C:\\Users\\Thomas\\OneDrive - VCCS Student Advantage\\CSC 201\\nnnn\\src\\data\\test_map.bin";
+		String filename = "/Users/thomas/Documents/Projects/Dialo/src/data/test_map.bin";
 		File file = new File(filename);
 		Scanner inStream= new Scanner(file);
 		for(int i = 0; i < this.xSize; i++) {
@@ -119,7 +119,7 @@ public class Mosaic {
 	}
 	
 	public void loadMap() throws IOException {
-		String filename = "C:\\Users\\Thomas\\OneDrive - VCCS Student Advantage\\CSC 201\\nnnn\\src\\data\\" + Long.toString(System.currentTimeMillis()) + "_map.bin";
+		String filename = "/Users/thomas/Documents/Projects/Dialo/src/data/" + Long.toString(System.currentTimeMillis()) + "_map.bin";
 		FileWriter file = new FileWriter(filename);
 		BufferedWriter writer= new BufferedWriter(file);
 		for(int i = 0; i < this.xSize; i++) {
@@ -135,7 +135,7 @@ public class Mosaic {
 	}
 	
 	public void displayTestMap() throws IOException {
-		String filename = "C:\\Users\\Thomas\\OneDrive - VCCS Student Advantage\\CSC 201\\nnnn\\src\\data\\test_map.bin";
+		String filename = "/Users/thomas/Documents/Projects/Dialo/src/data/test_map.bin";
 		FileWriter file = new FileWriter(filename);
 		BufferedWriter writer= new BufferedWriter(file);
 		for(int i = 0; i < this.xSize; i++) {

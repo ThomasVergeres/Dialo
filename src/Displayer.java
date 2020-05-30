@@ -52,7 +52,8 @@ public class Displayer extends JFrame
 	public void display() 
 	{
 		JPanel panel =  new JPanel();
-		panel.setSize(this.xDisplaySize, this.yDisplaySize);
+		panel.setPreferredSize(new Dimension(400, 400));
+		//panel.setSize(this.xDisplaySize, this.yDisplaySize);
 		panel.setBackground(Color.WHITE);
 		ImageIcon imIcon =  new ImageIcon(imagePath);
 		
